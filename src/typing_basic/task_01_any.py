@@ -1,8 +1,4 @@
-from typing import Any
-
-
-def foo(value: Any) -> Any:
-    """Takes one argument of any type."""
+def foo(value):
     return value
 
 
