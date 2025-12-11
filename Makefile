@@ -5,4 +5,4 @@ build:
 	docker build -t $(IMAGE_NAME) .
 
 typing:
-	docker run --rm -v $(PWD):/app $(IMAGE_NAME) mypy /app/typing_exercises
+	docker run --rm -v $(PWD):/app $(IMAGE_NAME) mypy /app/src
