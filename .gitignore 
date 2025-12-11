@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# PyCharm
+.idea/
+
+# Mypy cache
+.mypy_cache/
+
+# Docker
+*.log
