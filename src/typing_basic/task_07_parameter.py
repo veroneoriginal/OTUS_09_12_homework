@@ -1,4 +1,4 @@
-def foo(x: int):
+def foo(x: int) -> None:
     pass
 
 if __name__ == "__main__":

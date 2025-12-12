@@ -1,4 +1,6 @@
-def foo(value):
+from typing import Any
+
+def foo(value: Any) -> Any:
     return value
 
 

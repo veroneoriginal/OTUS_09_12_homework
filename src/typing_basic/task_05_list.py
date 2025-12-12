@@ -1,4 +1,4 @@
-def foo(x: list[str]):
+def foo(x: list[str]) -> None:
     pass
 
 if __name__ == "__main__":

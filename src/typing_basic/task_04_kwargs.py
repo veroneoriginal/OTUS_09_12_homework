@@ -4,7 +4,7 @@ class FooKwargs(TypedDict):
     a: int
     b: str
 
-def foo(**kwargs: Unpack[FooKwargs]):
+def foo(**kwargs: Unpack[FooKwargs]) -> None:
     ...
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 Vector = list[float | int]
 
-def foo(value: Vector):
+def foo(value: Vector) -> Vector:
     return value
 
 if __name__ == "__main__":

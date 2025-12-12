@@ -1,6 +1,6 @@
-
-def foo(value: tuple[str, int]):
+def foo(value: tuple[str, int]) -> tuple[str, int]:
     return value
+
 
 if __name__ == "__main__":
     foo(("foo", 1))

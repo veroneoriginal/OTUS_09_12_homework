@@ -1,4 +1,4 @@
-def foo(value: int | str):
+def foo(value: int | str) -> int | str:
     return value
 
 if __name__ == "__main__":
